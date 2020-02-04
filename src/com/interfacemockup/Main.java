@@ -28,21 +28,15 @@ public class Main {
         System.out.println(format);
 
 
-        Locale lokal = new Locale("fr", "FR");
-        DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.DAY_OF_YEAR_FIELD, lokal);
-        String date = dateFormat.format(new Date());
-        System.out.print(date);
+
 
 
     }
 
     // TODO: 13/11/2019  Dovrsiti funkciju
-    @Contract(pure = true)
+   // @Contract(pure = true)
     public static int zbir(int prviBroj, int drugiBroj){
-        Locale lokal = new Locale("fr", "FR");
-        DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.DAY_OF_YEAR_FIELD, lokal);
-        String date = dateFormat.format(new Date());
-        System.out.print(date);
+
 
 
 
