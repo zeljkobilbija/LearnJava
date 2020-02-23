@@ -1,4 +1,6 @@
 package com.interfacemockup;
+import org.jetbrains.annotations.NotNull;
+
 import java.util.*;
 
 
@@ -7,7 +9,7 @@ public class Questions {
     // invariant: answer is in [lo, hi)
 
 
-    public static void main(String[] args) {
+    public static void main(@NotNull String[] args) {
         int a = 7;
 
 

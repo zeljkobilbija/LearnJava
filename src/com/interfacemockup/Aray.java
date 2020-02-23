@@ -6,7 +6,13 @@ public class Aray {
 
         String nizStringi[] = {"Prvga", "Dva", "tri", "cetiri"};
 
-        int brojevi[] = {1,4,5,7,56};
+        int[] brojevi = {1,4,5,7,56};
+        /*
+           int[] brojevi = new int[3];
+           int[] brojevi = {1,2,3};
+           int[] brojevi = new int[]{1,2,3};
+        */
+
 
         System.out.println(brojevi[2]);
         System.out.println(nizStringi[1]);
